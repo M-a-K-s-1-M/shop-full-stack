@@ -1,0 +1,29 @@
+.shop-container {
+
+    .type-panel {
+
+        .type-list {
+
+            .type-item {
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            .type-item.active {
+                background-color: skyblue;
+            }
+        }
+    }
+
+    .brand-container {
+        .brand-list {
+            .brand-item {}
+
+            .brand-item.active {
+                background-color: pink;
+            }
+        }
+    }
+}
